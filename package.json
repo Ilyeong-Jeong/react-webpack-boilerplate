@@ -1,0 +1,13 @@
+{
+  "name": "react-webpack-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://Ilyeong-Jeong@github.com/Ilyeong-Jeong/react-webpack-boilerplate.git",
+  "author": "IlYeong Jeong <developjiy@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
+    "@babel/preset-typescript": "^7.24.1"
+  }
+}
