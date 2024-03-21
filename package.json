@@ -1,13 +1,14 @@
 {
   "name": "react-webpack-boilerplate",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.tsx",
   "repository": "https://Ilyeong-Jeong@github.com/Ilyeong-Jeong/react-webpack-boilerplate.git",
   "author": "IlYeong Jeong <developjiy@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production webpack --config ./webpack.prod.js",
-    "dev": "NODE_ENV=development webpack serve --config ./webpack.dev.js"
+    "dev": "NODE_ENV=development webpack serve --config ./webpack.dev.js",
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.1",
@@ -15,6 +16,7 @@
     "@babel/preset-env": "^7.24.3",
     "@babel/preset-react": "^7.24.1",
     "@babel/preset-typescript": "^7.24.1",
+    "@types/jest": "^29.5.12",
     "@types/react": "^18.2.67",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
@@ -27,11 +29,13 @@
     "eslint-plugin-react": "^7.34.1",
     "fork-ts-checker-webpack-plugin": "^9.0.2",
     "html-webpack-plugin": "^5.6.0",
+    "jest": "^29.7.0",
     "mini-css-extract-plugin": "^2.8.1",
     "prettier": "^3.2.5",
     "sass": "^1.72.0",
     "sass-loader": "^14.1.1",
     "style-loader": "^3.3.4",
+    "ts-jest": "^29.1.2",
     "typescript": "^5.4.3",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
